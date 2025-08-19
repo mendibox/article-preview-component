@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  background-color: hsl(210, 46%, 95%);
+}
+
+.article {
+  margin: 4rem 1rem;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.article__image {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.article__title {
+  margin: 2.5rem 2.3rem 1.5rem 2.3rem;
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 700;
+  color: hsl(217, 19%, 35%);
+}
+
+.article__text {
+  margin: 1rem 2.3rem 1.5rem 2.3rem;
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-size: 13px;
+  font-weight: 500;
+  color: hsl(214, 17%, 51%);
+}
+
+.article__author {
+  border: 1px solid red;
+  margin: 2rem 2.3rem 0 2.3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.article__author-image {
+  border-radius: 50%;
+  width: 40px;
+}
+
+.pending {
+  margin-right: 4rem;
+}
+
+.article__author-name {
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-size: 13px;
+  font-weight: 700;
+  color: hsl(217, 19%, 35%);
+  margin: 0;
+}
+
+.article__author-date {
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-size: 13px;
+  font-weight: 500;
+  color: hsl(214, 17%, 51%);
+  margin: 0;
+}

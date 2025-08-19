@@ -1,30 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <title>Frontend Mentor | Article preview component</title>
-</head>
-<body>
-  <article class="article__container">
-    <img src="/images/drawers.jpg" alt="A portrait holder and a vase on a wooden green piece of furniture" class="article__image">
-    <p class="article__title">Shift the overall look and feel by adding these wonderful 
-    touches to furniture in your home</p>
-    <p class="article__text">Ever been in a room and felt like something was missing? Perhaps 
-    it felt slightly bare and uninviting. I've got some simple tips 
-    to help you make any room feel complete.</p>
-    <div class="article__author-date-share">
-      <img src="/images/avatar-michelle.jpg" alt="Michelle Appleton avatar" class="author-date-share__image">
-      <p class="author-date-share__name">Michelle Appleton</p>
-      <p class="author-date-share__date">28 Jun 2020</p>
-    </div>
-  </article>
-  <footer class="footer">
-    <div class="footer__attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Juan Luis Mendiola Esquivel</a>.
-  </footer>
-  </div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Article preview component</title>
+    <link rel="stylesheet" href="/CSS/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <article class="article">
+      <img
+        src="/images/drawers.jpg"
+        alt="A portrait holder and a vase on a wooden green piece of furniture"
+        class="article__image"
+      />
+      <p class="article__title">
+        Shift the overall look and feel by adding these wonderful touches to
+        furniture in your home
+      </p>
+      <p class="article__text">
+        Ever been in a room and felt like something was missing? Perhaps it felt
+        slightly bare and uninviting. I've got some simple tips to help you make
+        any room feel complete.
+      </p>
+      <div class="article__author">
+        <img
+          src="/images/avatar-michelle.jpg"
+          alt="Michelle Appleton avatar"
+          class="article__author-image"
+        />
+        <div class="pending">
+          <p class="article__author-name">Michelle Appleton</p>
+          <p class="article__author-date">28 Jun 2020</p>
+        </div>
+        <div class="article__author-icon">
+          <img src="/images/icon-share.svg" alt="share icon" class="article__author-share">
+        </div>
+      </div>
+    </article>
+    <footer class="footer">
+      <div class="footer__attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Juan Luis Mendiola Esquivel</a>.
+      </div>
+    </footer>
+  </body>
 </html>
