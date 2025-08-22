@@ -79,16 +79,19 @@ body {
 }
 
 .article__share {
+  display: none;
+}
+
+.article__share_active {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
   background-color: hsl(217, 19%, 35%);
   height: 2.5rem;
   padding: 0.5rem 0;
   border-radius: 0 0 10px 10px;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
   margin-top: -50px;
-  display: none;
-  position: relative;
 }
 
 .article__share-text {
@@ -98,8 +101,4 @@ body {
   font-weight: 500;
   color: hsl(212, 23%, 69%);
   letter-spacing: 3px;
-}
-
-.article__author-share {
-  
 }
