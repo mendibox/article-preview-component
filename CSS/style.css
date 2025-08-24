@@ -117,6 +117,7 @@ body {
 .footer__attribution {
   font-size: 0.7rem;
   padding: 1rem;
+  text-align: center;
 }
 
 a {
@@ -124,6 +125,20 @@ a {
   font-weight: 500;
 }
 
-a:hover{
-  text-decoration: underline; 
+a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 768px) {
+  .main {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+  .article {
+    display: flex;
+  }
+  .article__image {
+    width: 300px;
+  }
 }
