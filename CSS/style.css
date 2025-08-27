@@ -134,9 +134,11 @@ a:hover {
     height: 100vh;
     display: flex;
     align-items: center;
+    justify-content: center;
   }
   .article {
     display: flex;
+    padding: 0;
   }
   .article__image {
     width: 300px;
