@@ -153,11 +153,14 @@ a:hover {
 
   }
   .article__share_active {
-    position: relative;
-    left: 600px;
-    bottom: 100px;
+    position: absolute;
+    right: -40px;
+    top: 420px;
     width: 9rem;
     height: 2rem;
     border-radius: 10px;
+  }
+  .footer__attribution {
+    font-size: 1.1rem;
   }
 }
