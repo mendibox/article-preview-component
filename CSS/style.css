@@ -95,6 +95,18 @@ body {
   margin-top: -50px;
 }
 
+.article__share_active::after {
+    position: absolute;
+    content: "";
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: hsl(217, 19%, 35%);
+    bottom: -0.75rem;
+    left: 50%;
+    transform: translateX(-50%) rotate(45deg);
+    border: 1px solid red;
+  }
+
 .article__share-text {
   font-family: "Manrope", sans-serif;
   font-style: normal;
