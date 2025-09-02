@@ -92,19 +92,18 @@ body {
   height: 2.5rem;
   padding: 0.5rem 2.3rem;
   border-radius: 0 0 10px 10px;
-  margin-top: -50px;
+  margin-top: -105px;
 }
 
 .article__share_active::after {
     position: absolute;
     content: "";
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 1rem;
+    height: 1rem;
     background-color: hsl(217, 19%, 35%);
-    bottom: -0.75rem;
+    bottom: -0.5rem;
     left: 50%;
     transform: translateX(-50%) rotate(45deg);
-    border: 1px solid red;
   }
 
 .article__share-text {
