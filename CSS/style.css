@@ -6,10 +6,10 @@ body {
 
 .article {
   width: 327px;
-  margin: 4rem 1rem;
+  margin: 3rem 1rem 0 1rem;
   background-color: #fff;
   border-radius: 10px;
-  padding: 0 0 1.5rem 0;
+  padding: 0 0 18px 0;
   box-shadow: 3px 3px 5px 2px #979797;
 }
 
@@ -24,7 +24,7 @@ body {
 }
 
 .article__title {
-  margin: 0 50px 24px 35px;
+  margin: 0 30px 24px 30px;
   font-family: "Manrope", sans-serif;
   font-weight: bold;
   font-size: 20px;
@@ -34,17 +34,18 @@ body {
 }
 
 .article__text {
-  margin: 0 3rem 1.5rem 2.3rem;
+  margin: 0 30px 48px 30px;
   font-family: "Manrope", sans-serif;
-  font-style: normal;
-  font-size: 13px;
   font-weight: 500;
-  color: hsl(214, 17%, 51%);
+  font-size: 13px;
+  line-height: 140%;
+  letter-spacing: 0.12%;
+  color: #6e8090;
 }
 
 .article__author {
+  margin: 0 30px 18px 30px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 
@@ -55,32 +56,34 @@ body {
 
 .article__author-name-date {
   flex-grow: 1;
-  margin-left: 0.6rem;
+  margin-left: 1rem;
 }
 
 .article__author-name {
   font-family: "Manrope", sans-serif;
-  font-style: normal;
+  font-weight: bold;
   font-size: 13px;
-  font-weight: 700;
-  color: hsl(217, 19%, 35%);
+  line-height: 140%;
+  letter-spacing: 0.12%;
+  color: #48556a;
   margin: 0;
 }
 
 .article__author-date {
   font-family: "Manrope", sans-serif;
-  font-style: normal;
-  font-size: 13px;
   font-weight: 500;
-  color: hsl(214, 17%, 51%);
+  font-size: 13px;
+  line-height: 140%;
+  letter-spacing: 0.12%;
+  color: #9daec2;
   margin: 0;
 }
 
 .article__author-icon {
-  width: 30px;
-  height: 30px;
+  width: 32px;
+  height: 32px;
   border-radius: 50%;
-  background-color: hsl(210, 46%, 95%);
+  background-color: #ecf2f8;
   display: flex;
   align-items: center;
   justify-content: center;
