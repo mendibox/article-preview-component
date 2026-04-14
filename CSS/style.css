@@ -49,6 +49,10 @@ body {
   align-items: center;
 }
 
+.article__author-active {
+  display: none;
+}
+
 .article__author-image {
   border-radius: 50%;
   width: 40px;
@@ -89,19 +93,29 @@ body {
   justify-content: center;
 }
 
+.article__author-icon-active {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #6e8090;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .article__share {
   display: none;
 }
 
-.article__share_active {
+.article__share-active {
   display: flex;
   justify-content: space-between;
   align-items: center;
   position: relative;
-  margin-top: -50px;
+  margin-top: -20px;
   background-color: hsl(217, 19%, 35%);
-  height: 2.5rem;
-  padding: 0.5rem 2.3rem;
+  height: 4.75rem;
+  padding: 0 1.875rem;
   border-radius: 0 0 10px 10px;
   box-shadow: 0 0 8px hsl(217, 19%, 35%);
 }
@@ -124,21 +138,20 @@ body {
 
 .article__share-text {
   font-family: "Manrope", sans-serif;
-  font-style: normal;
-  font-size: 13px;
   font-weight: 500;
-  color: hsl(212, 23%, 69%);
-  letter-spacing: 3px;
+  font-size: 13px;
+  line-height: 140%;
+  letter-spacing: 0.12%;
+  color: #9daec2;
 }
 
-.article__author-icon_active {
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  background-color: hsl(214, 17%, 51%);
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.article__share-facebook {
+  margin-left: 1.5rem;
+  margin-right: 1rem;
+}
+
+.article__share-twitter {
+  margin-right: 1rem;
 }
 
 .footer__attribution {
