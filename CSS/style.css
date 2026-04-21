@@ -4,6 +4,11 @@ body {
   background-color: #ecf2f8;
 }
 
+#one {
+  background-color: #48556a;
+  width: 30px;
+}
+
 .article {
   width: 327px;
   margin: 3rem 1rem 0 1rem;
@@ -149,14 +154,14 @@ body {
   margin-right: 1rem;
 }
 
-.shape{
+.shape {
   width: 12px;
   height: 12px;
   background-color: #48556a;
   transform: rotate(45deg);
   position: relative;
-  top: 100px;
-  left: 200px;
+  bottom: 45px;
+  right: 41px;
 }
 
 .footer__attribution {
@@ -198,20 +203,24 @@ a:hover {
   .article__title {
     margin: 0 0 24px 0;
   }
-  .article__text{
+  .article__text {
     margin: 0 0 24px 0;
   }
-  .article__author{
+  .article__author {
     margin: 0;
   }
-  .article__share-active{
+  .article__share-active {
     width: 248px;
     height: 55px;
     border-radius: 10px;
+    bottom: 200px;
     right: -67px;
+    padding: 0;
   }
   .article__author-icon-active {
     position: relative;
-    top: 100px; 
-}
+    right: -41px;
+    bottom: -45px;
+    /* top: 100px; */
+  }
 }
