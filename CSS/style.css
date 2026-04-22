@@ -4,10 +4,11 @@ body {
   background-color: #ecf2f8;
 }
 
-#one {
-  background-color: #48556a;
-  width: 30px;
-}
+  .main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
 .article {
   width: 327px;
@@ -104,6 +105,10 @@ body {
   justify-content: center;
 }
 
+.shape {
+  display: none;
+}
+
 .article__share {
   display: none;
 }
@@ -182,9 +187,6 @@ a:hover {
 @media screen and (min-width: 768px) {
   .main {
     height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
   }
   .article {
     display: flex;
@@ -213,14 +215,49 @@ a:hover {
     width: 248px;
     height: 55px;
     border-radius: 10px;
-    bottom: 200px;
-    right: -67px;
+    padding: 0;
+    bottom: 46px;
+    left: 166px;
+    justify-content: center;
+  }
+  .article__text-icons {
+    display: flex;
     padding: 0;
   }
   .article__author-icon-active {
+    position: absolute;
+    top: 85px;
+    left: 113px;
+  }
+  .shape-active {
+    display: block;
     position: relative;
-    right: -41px;
-    bottom: -45px;
-    /* top: 100px; */
+    bottom: 52px;
+    left: 290px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .article {
+    width: 730px;
+    height: 280px;
+    margin: 0;
+  }
+  .article__image {
+    width: 285px;
+    height: 280px;
+    border-radius: 10px 0 0 10px;
+  }
+  .article__container {
+    margin: 30px 40px;
+  }
+  .article__share-active {
+    left: 225px;
+  }
+  .article__author-icon-active {
+    left: 108px;
+  }
+  .shape-active {
+    left: 344px;
   }
 }
