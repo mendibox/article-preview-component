@@ -235,6 +235,9 @@ a:hover {
     bottom: 52px;
     left: 290px;
   }
+  .footer__attribution {
+    font-size: 1.2rem;
+  }
 }
 
 @media screen and (min-width: 1440px) {
@@ -259,5 +262,8 @@ a:hover {
   }
   .shape-active {
     left: 344px;
+  }
+  .footer__attribution {
+    font-size: 1.5rem;
   }
 }
