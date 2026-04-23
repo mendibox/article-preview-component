@@ -20,7 +20,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://www.frontendmentor.io/solutions/article-preview-component-using-flexbox-gljqBvvuV3](https://www.frontendmentor.io/solutions/article-preview-component-using-flexbox-gljqBvvuV3)
-- Live Site URL: [https://mendibox.github.io/article-preview-component/](https://your-live-site-url.com)
+- Live Site URL: [https://mendibox.github.io/article-preview-component/](https://mendibox.github.io/article-preview-component/)
 
 ## My process
 
@@ -33,4 +33,4 @@ Users should be able to:
 ## Author
 
 - Frontend Mentor - [@mendibox](https://www.frontendmentor.io/profile/mendibox)
-- X - [@yourusername](https://x.com/mendibox)
+- X - [@mendibox](https://x.com/mendibox)
