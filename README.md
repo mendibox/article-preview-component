@@ -2,18 +2,6 @@
 
 This is a solution to the [Article preview component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/article-preview-component-dYBN_pYFT). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-## Table of contents
-
-- [Frontend Mentor - Article preview component solution](#frontend-mentor---article-preview-component-solution)
-  - [Table of contents](#table-of-contents)
-  - [Overview](#overview)
-    - [The challenge](#the-challenge)
-    - [Screenshots](#screenshots)
-    - [Links](#links)
-  - [My process](#my-process)
-    - [Built with](#built-with)
-  - [Author](#author)
-
 ## Overview
 
 ### The challenge
@@ -31,7 +19,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/article-preview-component-using-flexbox-gljqBvvuV3](https://www.frontendmentor.io/solutions/article-preview-component-using-flexbox-gljqBvvuV3)
 - Live Site URL: [https://mendibox.github.io/article-preview-component/](https://your-live-site-url.com)
 
 ## My process
@@ -44,6 +32,5 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@mendibox](https://www.frontendmentor.io/profile/mendibox)
+- X - [@yourusername](https://x.com/mendibox)
